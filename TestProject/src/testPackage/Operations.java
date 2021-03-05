@@ -7,6 +7,6 @@ public class Operations{
   //Increment method returns a value after incrementing it.
   public int increment(int x) {return x++;}
   //doubleIncrement method returns a value after incrementing it twice.
-  public int doubleIncrement(int x){return (x-2);}
+  public int doubleIncrement(int x){return (x+2);}
   
 }
