@@ -3,9 +3,11 @@ package testPackage;
 public class Main {
 	public static void main(String args[]) {
 		int i = 0; 
-      i = increment(i); 
+      i = Operations.increment(i); 
       System.out.println(i);
-      i = decrement(i); 
+      i = Operations.decrement(i); 
       System.out.println(i);  
 	}
+
+
 }
