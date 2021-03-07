@@ -1,0 +1,21 @@
+//This is the factory that is specially designed for creating monsters
+public class MonsterFactory implements AbstractCharacterFactory {
+
+	@Override
+	public DungeonCharacter createCharacter(int characterID) {
+		switch(characterID)
+		{
+			case 1: return new Ogre();
+
+			case 2: return new Gremlin();
+
+			case 3: return new Skeleton();
+
+			default: System.out.println("invalid choice, returning Skeleton");
+			return new Skeleton();
+		}//end switch
+	}
+	//It will have one method
+	
+	//All it does is take a number and return a character
+}

@@ -76,18 +76,10 @@ this task
 						   "2. Sorceress\n" +
 						   "3. Thief");
 		choice = Keyboard.readInt();
-
-		switch(choice)
-		{
-			case 1: return new Warrior();
-
-			case 2: return new Sorceress();
-
-			case 3: return new Thief();
-
-			default: System.out.println("invalid choice, returning Thief");
-				     return new Thief();
-		}//end switch
+		//So, at this point I will create an abstract factory using the create factory method in the Character Factory Producer Class
+		AbstractCharacterFactory factory = CharacterFactoryProducer.createFactory(choice); 
+		//Once the factory is created, I will return a character using that factory 
+		return (Hero)factory.createCharacter(choice); 
 	}//end chooseHero method
 
 /*-------------------------------------------------------------------
@@ -99,18 +91,12 @@ a polymorphic reference (Monster) to accomplish this task.
 		int choice;
 
 		choice = (int)(Math.random() * 3) + 1;
-
-		switch(choice)
-		{
-			case 1: return new Ogre();
-
-			case 2: return new Gremlin();
-
-			case 3: return new Skeleton();
-
-			default: System.out.println("invalid choice, returning Skeleton");
-				     return new Skeleton();
-		}//end switch
+		//choice is multiplied by negative 1 to distuingish between monsters and heros. So that the factory producer knows which factory to produce
+		//I'm going to create the abstract factory using the abstract factory creator method
+		AbstractCharacterFactory factory = CharacterFactoryProducer.createFactory(choice * -1); 
+		//Using said factory, I will return a monster 
+		return (Monster)factory.createCharacter(choice); 
+		
 	}//end generateMonster method
 
 /*-------------------------------------------------------------------

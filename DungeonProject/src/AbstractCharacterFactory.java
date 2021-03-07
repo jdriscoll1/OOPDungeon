@@ -1,0 +1,7 @@
+//This is the factory that all factories will be subclasses of 
+//This will a layer of decoupling because the call to create an object, will not need to know which factory is being created. 
+public interface AbstractCharacterFactory {
+	//This is the method that creates an object
+	//It returns a dungeon character 
+	public DungeonCharacter createCharacter(int characterID); 
+}
