@@ -284,7 +284,8 @@ public class Keyboard
       float value;
       try
       {
-         value = (new Float(token)).floatValue();
+    	 value = Float.parseFloat(token);
+         //value = (new Float(token)).floatValue();
       }
       catch (Exception exception)
       {
@@ -303,7 +304,8 @@ public class Keyboard
       double value;
       try
       {
-         value = (new Double(token)).doubleValue();
+    	 value = Double.parseDouble(token); 
+         //value = (new Double(token)).doubleValue();
       }
       catch (Exception exception)
       {
