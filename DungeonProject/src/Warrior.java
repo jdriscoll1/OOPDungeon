@@ -10,7 +10,7 @@
 
 public class Warrior extends Hero{
 
-    public Warrior(){
+	public Warrior(){
 
 		name = "Warrior";
 		
@@ -23,7 +23,7 @@ public class Warrior extends Hero{
 		damageMin = 35; 
 		damageMax = 60;
 		
-    }  // end constructor
+	}  // end constructor
 
 	public void crushingBlow(DungeonCharacter opponent){
 
@@ -51,19 +51,19 @@ public class Warrior extends Hero{
 	
 	}  // end override of attack method
 
-    public void battleChoices(DungeonCharacter opponent){
+    	public void battleChoices(DungeonCharacter opponent){
     	
 		int choice;
 		super.battleChoices(opponent);
 
 		do{
 			
-		    System.out.println("1. Attack Opponent");
-		    System.out.println("2. Crushing Blow on Opponent");
-		    System.out.print("Choose an option: ");
-		    choice = Keyboard.readInt();
+			System.out.println("1. Attack Opponent");
+		 	System.out.println("2. Crushing Blow on Opponent");
+		 	System.out.print("Choose an option: ");
+		 	choice = Keyboard.readInt();
 
-		    switch (choice){
+		 	switch (choice){
 		    
 			    case 1: attack(opponent);
 			    		break;
@@ -81,6 +81,6 @@ public class Warrior extends Hero{
 
 		}while(numTurns > 0);
 
-    }  // end battleChoices method
+	}  // end battleChoices method
 
 }  // end Hero class
