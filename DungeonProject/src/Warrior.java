@@ -23,8 +23,10 @@ public class Warrior extends Hero{
 		damageMin = 35; 
 		damageMax = 60;
 		
-	}  // end constructor
+	}   // end constructor
 
+
+//-----------------------------------------------------------------
 	public void crushingBlow(DungeonCharacter opponent){
 
 		if (Math.random() <= .4){
@@ -33,23 +35,25 @@ public class Warrior extends Hero{
 			System.out.println(name + " lands a CRUSHING BLOW for " + blowPoints + " damage!");
 			opponent.subtractHitPoints(blowPoints);
 
-		}  // end blow succeeded
+		}   // end blow succeeded
 
 		else{
 
 			System.out.println(name + " failed to land a crushing blow");
 			System.out.println();
 
-		}  // blow failed
+		}   // blow failed
 
-	}  // end crushingBlow method
+	}   // end crushingBlow method
 
+
+//-----------------------------------------------------------------
 	public void attack(DungeonCharacter opponent){
 		
 		System.out.println(name + " swings a mighty sword at " + opponent.getName() + ":");
 		super.attack(opponent);
 	
-	}  // end override of attack method
+	}   // end override of attack method
 
     	public void battleChoices(DungeonCharacter opponent){
     	
@@ -73,7 +77,7 @@ public class Warrior extends Hero{
 			    
 			    default: System.out.println("invalid choice!");
 		    
-		    }  // end switch
+		    }   // end switch
 
 			numTurns--;
 			
@@ -81,6 +85,6 @@ public class Warrior extends Hero{
 
 		}while(numTurns > 0);
 
-	}  // end battleChoices method
+	}   // end battleChoices method
 
-}  // end Hero class
+}   // end Hero class
