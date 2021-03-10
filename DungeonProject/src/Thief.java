@@ -23,8 +23,9 @@ public class Thief extends Hero{
 		damageMin = 20; 
 		damageMax = 40;
 		
-	}  // end constructor
+	}   // end constructor
 
+//-----------------------------------------------------------------
 	public void surpriseAttack(DungeonCharacter opponent){
 
 		double surprise = Math.random();
@@ -35,14 +36,16 @@ public class Thief extends Hero{
 			numTurns++;
 			attack(opponent);
 
-		}  // end surprise
+		}   // end surprise
 		
 		else if (surprise >= .9) System.out.println("Uh oh! " + opponent.getName() + " saw you and" + " blocked your attack!");
 
 		else attack(opponent);
 
-	}  // end surpriseAttack method
+	}   // end surpriseAttack method
 
+
+//-----------------------------------------------------------------
 	public void battleChoices(DungeonCharacter opponent){
     	
 		super.battleChoices(opponent);
@@ -65,7 +68,7 @@ public class Thief extends Hero{
 
 				default: System.out.println("invalid choice!");
 
-		    }  // end switch
+		    }   // end switch
 
 			numTurns--;
 			
