@@ -1,0 +1,4 @@
+//This is the factory that is specially designed for creating monsters
+public class MonsterFactory {
+
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3b99b46c66bf2f0a73c074773616fa51dc5c9cec"

@@ -1,0 +1,4 @@
+//This creates new factories 
+public class CharacterFactoryProducer {
+	//It has one method that takes an input and returns a concrete factory 
+}

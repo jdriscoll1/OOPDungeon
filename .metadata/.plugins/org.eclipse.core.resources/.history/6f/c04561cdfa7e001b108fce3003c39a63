@@ -1,0 +1,4 @@
+//This is the factory that creates hero characters 
+public class HeroFactory {
+	//It will have one factory that takes a number and returns a hero from it 
+}

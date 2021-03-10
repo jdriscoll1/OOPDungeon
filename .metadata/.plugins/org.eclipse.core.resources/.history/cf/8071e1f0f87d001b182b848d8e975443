@@ -1,0 +1,14 @@
+package testPackage;
+
+public class Main {
+	public static void main(String args[]) {
+		Operations o = new Operations(); 
+		int i = 0; 
+      i = Operations.increment(i); 
+      System.out.println(i);
+      i = Operations.decrement(i); 
+      System.out.println(i);  
+	}
+
+
+}

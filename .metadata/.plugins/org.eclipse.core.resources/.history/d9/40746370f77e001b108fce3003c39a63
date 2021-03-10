@@ -1,0 +1,5 @@
+//This is the factory that all factories will be subclasses of 
+//This will a layer of decoupling because the call to create an object, will not need to know which factory is being created. 
+public abstract class AbstractFactory {
+	//This is the method that creates an object 
+}

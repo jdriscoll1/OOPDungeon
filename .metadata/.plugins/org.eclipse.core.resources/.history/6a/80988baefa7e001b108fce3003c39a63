@@ -1,0 +1,5 @@
+//This creates new factories 
+public class CharacterFactoryProducer {
+	//It has one method that takes an input and returns an abstract factory 
+	
+}

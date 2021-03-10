@@ -1,0 +1,4 @@
+//This is the factory that extends hero 
+public class HeroFactory {
+
+}

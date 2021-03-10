@@ -1,0 +1,12 @@
+//This is the factory that is specially designed for creating monsters
+public class MonsterFactory implements AbstractCharacterFactory {
+
+	@Override
+	public DungeonCharacter createCharacter(int num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	//It will have one method
+	
+	//All it does is take a number and return a character
+}
