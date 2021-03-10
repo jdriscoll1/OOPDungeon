@@ -32,13 +32,10 @@
  * @version 1.0
  */
 
-<<<<<<< HEAD
-public abstract class DungeonCharacter
-{
-=======
+
+
 public abstract class DungeonCharacter{
 
->>>>>>> a0b6fe8ae963985ffea07e191a5da21dfa184db5
 
 	protected String name;
 	protected int hitPoints;
@@ -46,10 +43,9 @@ public abstract class DungeonCharacter{
 	protected double chanceToHit;
 	protected int damageMin, damageMax;
 	
-<<<<<<< HEAD
+
 	
-=======
->>>>>>> a0b6fe8ae963985ffea07e191a5da21dfa184db5
+
 //-----------------------------------------------------------------
 //explicit constructor to initialize instance variables -- it is called
 // by derived classes
