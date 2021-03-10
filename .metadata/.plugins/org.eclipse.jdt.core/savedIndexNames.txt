@@ -1,6 +1,4 @@
 INDEX VERSION 1.131+C:\Users\Jordan\Test-Folder\School\Years\Sophmore\Object Oriented Programming\GroupProject\.metadata\.plugins\org.eclipse.jdt.core
-<<<<<<< HEAD
 1475002405.index
-=======
->>>>>>> Jordan
+1618061412.index
 2103231971.index

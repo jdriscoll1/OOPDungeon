@@ -30,14 +30,10 @@ public abstract class Hero extends DungeonCharacter{
 	
 	protected double chanceToBlock;
 	protected int numTurns;
-   protected Hero(String name, int hitPoints, int attackSpeed,
-				     double chanceToHit, int damageMin, int damageMax,
-					 double chanceToBlock)
-  {
-	super(name, hitPoints, attackSpeed, chanceToHit, damageMin, damageMax);
-	this.chanceToBlock = chanceToBlock;
-	readName();
-  }
+
+//-----------------------------------------------------------------
+//calls base constructor and gets name of hero from user
+	public Hero(){ }
 
 /*-------------------------------------------------------
 readName obtains a name for the hero from the user
