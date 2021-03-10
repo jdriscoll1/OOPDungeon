@@ -1,5 +1,4 @@
 
-
 /**
  * Title:
  * Description:
@@ -27,13 +26,15 @@ public class Skeleton extends Monster{
 		minHeal = 30; 
 		maxHeal = 50;
 
-    }  // end constructor
+	}   // end constructor
 
+
+//-----------------------------------------------------------------
 	public void attack(DungeonCharacter opponent){
 		
 		System.out.println(name + " slices his rusty blade at " + opponent.getName() + ":");
 		super.attack(opponent);
 
-	}  // end override of attack
+	}   // end override of attack
 
-}  // end class Skeleton
+}   // end class Skeleton
