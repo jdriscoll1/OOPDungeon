@@ -1,5 +1,4 @@
 
-
 /**
  * Title: DungeonCharacter.java
  *
@@ -33,8 +32,8 @@
  * @version 1.0
  */
 
-public abstract class DungeonCharacter //implements Comparable
-{
+public abstract class DungeonCharacter{
+
 
 	protected String name;
 	protected int hitPoints;
@@ -42,35 +41,19 @@ public abstract class DungeonCharacter //implements Comparable
 	protected double chanceToHit;
 	protected int damageMin, damageMax;
 	
-/*
-	public int compareTo(Object o)
-	{
-		return 1;
-	}
-*/
-	
 //-----------------------------------------------------------------
 //explicit constructor to initialize instance variables -- it is called
 // by derived classes
-	public DungeonCharacter(){ }  // end constructor
+	public DungeonCharacter(){ }   // end constructor
 
 //-----------------------------------------------------------------
-	public String getName()
-	{
-		return name;
-	}//end getName
+	public String getName(){ return name; }   // end getName
 
 //-----------------------------------------------------------------
-	public int getHitPoints()
-	{
-		return hitPoints;
-	}//end getHitPoints
-//-----------------------------------------------------------------
-	public int getAttackSpeed()
-	{
-		return attackSpeed;
-	}//end getAttackSpeed
+	public int getHitPoints(){ return hitPoints; }   // end getHitPoints
 
+//-----------------------------------------------------------------
+	public int getAttackSpeed(){ return attackSpeed; }  // end getAttackSpeed
 
 /*-------------------------------------------------------
 addHitPoints is used to increment the hitpoints a dungeon character has
@@ -81,17 +64,18 @@ Returns: nothing
 This method calls: nothing
 This method is called by: heal method of monsters and Sorceress
 ---------------------------------------------------------*/
-	public void addHitPoints(int hitPoints)
-	{
-		if (hitPoints <=0)
-			System.out.println("Hitpoint amount must be positive.");
-		else
-		{
+	public void addHitPoints(int hitPoints){
+		
+		if(hitPoints <= 0) System.out.println("Hitpoint amount must be positive.");
+		
+		else{
+			
 			this.hitPoints += hitPoints;
 			//System.out.println("Remaining Hit Points: " + hitPoints);
 
 		}
-	}//end addHitPoints method
+	
+	}  // end addHitPoints method
 
 /*-------------------------------------------------------
 subtractHitPoints is used to decrement the hitpoints a dungeon character has.
@@ -114,9 +98,9 @@ This method is called by: overridden versions in Hero and Monster
 			
 			if(this.hitPoints < 0) this.hitPoints = 0;
 			
-		}  // end else if
+		}   // end else if
 	
-	}  // end method
+	}   // end method
 
 /*-------------------------------------------------------
 isAlive is used to see if a character is still alive by checking hit points
@@ -127,10 +111,7 @@ Returns: true is hero is alive, false otherwise
 This method calls: nothing
 This method is called by: unknown (intended for external use)
 ---------------------------------------------------------*/
-    public boolean isAlive()
-	{
-	  return (hitPoints > 0);
-	}//end isAlive method
+	public boolean isAlive(){ return (hitPoints > 0); }   // end isAlive method
 
 /*-------------------------------------------------------
 attack allows character to attempt attack on opponent.  First, chance to hit
@@ -156,25 +137,21 @@ hero classes and externally
 			damage = (int)(Math.random() * (damageMax - damageMin + 1)) + damageMin;
 			opponent.subtractHitPoints(damage);
 
-			System.out.println(getName() + " hit " + " for <" + hitPoints + "> points damage.");
+			System.out.println(getName() + " hit " + " for <" + damage + "> points damage.");
 			System.out.println(getName() + " now has " + getHitPoints() + " hit points remaining.");
 			System.out.println();
 			
 			if(this.hitPoints == 0) System.out.println(name + " has been killed :-(");
 
-		}  // end if can attack
+		}   // end if can attack
 		
 		else{
 
 			System.out.println(getName() + "'s attack on " + opponent.getName() + " failed!");
 			System.out.println();
 			
-		}  // end else
+		}   // end else
 
-	}  // end attack method
+	}   // end attack method
 
-//-----------------------------------------------------------------
-
-
-
-}//end class Character
+}   // end class Character
