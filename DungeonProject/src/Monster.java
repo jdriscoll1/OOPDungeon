@@ -14,10 +14,10 @@ public abstract class Monster extends DungeonCharacter{
 	protected int minHeal, maxHeal;
 
 //-----------------------------------------------------------------
-  public Monster(){ }   // end monster constructor
+	public Monster(){ }   // end monster constructor
 
 //-----------------------------------------------------------------
-  public void heal(){
+	public void heal(){
 		
 		boolean canHeal;
 		int healPoints;
