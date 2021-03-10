@@ -7423,13 +7423,21 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2021-03-10 13:41:58.260 -----------------------------------------------
+=======
+!SESSION 2021-03-10 13:37:06.738 -----------------------------------------------
+>>>>>>> Jordan
 eclipse.buildId=4.18.0.I20201202-1800
 java.version=11.0.6
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.osgi 4 0 2021-03-10 13:41:58.929
+=======
+!ENTRY org.eclipse.osgi 4 0 2021-03-10 13:37:07.340
+>>>>>>> Jordan
 !MESSAGE error loading hook: org.eclipse.objectteams.otequinox.hook.HookConfigurator
 !STACK 0
 java.lang.NoClassDefFoundError: org/eclipse/osgi/baseadaptor/HookConfigurator
@@ -7465,15 +7473,25 @@ Caused by: java.lang.ClassNotFoundException: org.eclipse.osgi.baseadaptor.HookCo
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
 	... 26 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2021-03-10 13:42:05.729
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:42:05.729
+=======
+!ENTRY org.eclipse.jface 2 0 2021-03-10 13:37:13.922
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:37:13.922
+>>>>>>> Jordan
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35e7fcf2,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e5e7753,
+>>>>>>> Jordan
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -7481,17 +7499,29 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@620f7a39,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:42:05.730
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11678469,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:37:13.922
+>>>>>>> Jordan
 !MESSAGE A conflict occurred for ALT+SHIFT+Q E:
 Binding(ALT+SHIFT+Q E,
 	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
 		Shows the Script Explorer,
 		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e581302,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@395115ac,
+>>>>>>> Jordan
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -7499,11 +7529,16 @@ Binding(ALT+SHIFT+Q E,
 	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
 		Shows a particular view,
 		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b5ca574,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36c1b6ff,
+>>>>>>> Jordan
 		[Parameter(org.eclipse.ui.views.showView.viewId,View,null,true), Parameter(org.eclipse.ui.views.showView.secondaryId,Secondary Id,null,true), Parameter(org.eclipse.ui.views.showView.makeFast,As FastView,null,true)],,true),[org.eclipse.core.commands.Parameterization@764c0aef]),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 4 2021-03-10 13:42:09.866
 !MESSAGE Unable to create part
 !STACK 1
@@ -8136,18 +8171,29 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProjec
 !MESSAGE Cannot determine URI for '/DungeonProject/src/DungeonCharacter.java'.
 
 !ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:42:46.212
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:37:23.140
+>>>>>>> Jordan
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Jordan'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2021-03-10 13:43:09.959 -----------------------------------------------
+=======
+!SESSION 2021-03-10 13:39:15.016 -----------------------------------------------
+>>>>>>> Jordan
 eclipse.buildId=4.18.0.I20201202-1800
 java.version=11.0.6
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.osgi 4 0 2021-03-10 13:43:10.518
+=======
+!ENTRY org.eclipse.osgi 4 0 2021-03-10 13:39:15.666
+>>>>>>> Jordan
 !MESSAGE error loading hook: org.eclipse.objectteams.otequinox.hook.HookConfigurator
 !STACK 0
 java.lang.NoClassDefFoundError: org/eclipse/osgi/baseadaptor/HookConfigurator
@@ -8183,15 +8229,25 @@ Caused by: java.lang.ClassNotFoundException: org.eclipse.osgi.baseadaptor.HookCo
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
 	... 26 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2021-03-10 13:43:19.721
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:43:19.721
+=======
+!ENTRY org.eclipse.jface 2 0 2021-03-10 13:39:23.110
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:39:23.110
+>>>>>>> Jordan
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66acaa54,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4844e24b,
+>>>>>>> Jordan
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -8199,17 +8255,29 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60739eca,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:43:19.721
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2571bdf4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:39:23.110
+>>>>>>> Jordan
 !MESSAGE A conflict occurred for ALT+SHIFT+Q E:
 Binding(ALT+SHIFT+Q E,
 	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
 		Shows the Script Explorer,
 		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9ba167e,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@241abc2,
+>>>>>>> Jordan
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -8217,11 +8285,16 @@ Binding(ALT+SHIFT+Q E,
 	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
 		Shows a particular view,
 		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17873842,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e5e7753,
+>>>>>>> Jordan
 		[Parameter(org.eclipse.ui.views.showView.viewId,View,null,true), Parameter(org.eclipse.ui.views.showView.secondaryId,Secondary Id,null,true), Parameter(org.eclipse.ui.views.showView.makeFast,As FastView,null,true)],,true),[org.eclipse.core.commands.Parameterization@764c0aef]),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 4 2021-03-10 13:43:24.659
 !MESSAGE Unable to create part
 !STACK 1
@@ -8495,6 +8568,9 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProjec
 !MESSAGE Cannot determine URI for '/DungeonProject/src/DungeonCharacter.java'.
 
 !ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:43:27.518
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:39:34.821
+>>>>>>> Jordan
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Jordan'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
