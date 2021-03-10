@@ -1,5 +1,4 @@
 
-
 /**
  * Title:
  * Description:
@@ -9,42 +8,41 @@
  * @version 1.0
  */
 
-
-public abstract class Monster extends DungeonCharacter
-{
+public abstract class Monster extends DungeonCharacter{
+	
 	protected double chanceToHeal;
 	protected int minHeal, maxHeal;
 
 //-----------------------------------------------------------------
-  public Monster(){ }  // end monster constructor
+  public Monster(){ }   // end monster constructor
 
 //-----------------------------------------------------------------
-  public void heal()
-  {
-	boolean canHeal;
-	int healPoints;
+  public void heal(){
+		
+		boolean canHeal;
+		int healPoints;
 
-	canHeal = (Math.random() <= chanceToHeal) && (hitPoints > 0);
+		canHeal = (Math.random() <= chanceToHeal) && (hitPoints > 0);
 
-	if (canHeal)
-	{
-		healPoints = (int)(Math.random() * (maxHeal - minHeal + 1)) + minHeal;
-		addHitPoints(healPoints);
-		System.out.println(name + " healed itself for " + healPoints + " points.\n"
-							+ "Total hit points remaining are: " + hitPoints);
-		System.out.println();
-	}//end can heal
+		if(canHeal){
+
+			healPoints = (int)(Math.random() * (maxHeal - minHeal + 1)) + minHeal;
+			addHitPoints(healPoints);
+			System.out.println(name + " healed itself for " + healPoints + " points.\n" + "Total hit points remaining are: " + hitPoints);
+			System.out.println();
+
+		}   // end can heal
 
 
-  }//end heal method
+	}   // end heal method
 
 //-----------------------------------------------------------------
- public void subtractHitPoints(int hitPoints)
- {
+	public void subtractHitPoints(int hitPoints){
+
 		super.subtractHitPoints(hitPoints);
 		heal();
 
- }//end method
+ 	}   // end method
 
 
-}//end Monster class
+}   // end Monster class
