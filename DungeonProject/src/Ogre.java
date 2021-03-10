@@ -1,5 +1,4 @@
 
-
 /**
  * Title:
  * Description:
@@ -27,13 +26,15 @@ public class Ogre extends Monster{
 		minHeal = 30; 
 		maxHeal = 50;
 
-	}  // end constructor
+	}   // end constructor
 
+
+//-----------------------------------------------------------------
 	public void attack(DungeonCharacter opponent){
 		
 		System.out.println(name + " slowly swings a club toward's " + opponent.getName() + ":");
 		super.attack(opponent);
 
-	}  // end override of attack
+	}   // end override of attack
 
-}  // end Monster class
+}   // end Monster class
