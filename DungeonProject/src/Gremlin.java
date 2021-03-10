@@ -1,5 +1,4 @@
 
-
 /**
  * Title:
  * Description:
@@ -11,7 +10,7 @@
 
 public class Gremlin extends Monster{
 
-    public Gremlin(){
+	public Gremlin(){
     	
 		name = "Gnarltooth the Gremlin";
 		
@@ -27,13 +26,14 @@ public class Gremlin extends Monster{
 		minHeal = 20; 
 		maxHeal = 40;
 
-    }  // end constructor
+	}   // end constructor
 
+//-----------------------------------------------------------------
 	public void attack(DungeonCharacter opponent){
 		
 		System.out.println(name + " jabs his kris at " + opponent.getName() + ":");
 		super.attack(opponent);
 
-	}  // end override of attack
+	}   // end override of attack
 
-}  // end class Gremlin
+}   // end class Gremlin
