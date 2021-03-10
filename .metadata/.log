@@ -8295,6 +8295,7 @@ Binding(ALT+SHIFT+Q E,
 	org.eclipse.ui.contexts.window,,,system)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 4 2021-03-10 13:43:24.659
 !MESSAGE Unable to create part
 !STACK 1
@@ -8571,18 +8572,29 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProjec
 =======
 !ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:39:34.821
 >>>>>>> Jordan
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:39:34.821
+>>>>>>> Jordan
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Jordan'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2021-03-10 13:46:12.649 -----------------------------------------------
+=======
+!SESSION 2021-03-10 13:48:08.667 -----------------------------------------------
+>>>>>>> Jordan
 eclipse.buildId=4.18.0.I20201202-1800
 java.version=11.0.6
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.osgi 4 0 2021-03-10 13:46:13.223
+=======
+!ENTRY org.eclipse.osgi 4 0 2021-03-10 13:48:09.243
+>>>>>>> Jordan
 !MESSAGE error loading hook: org.eclipse.objectteams.otequinox.hook.HookConfigurator
 !STACK 0
 java.lang.NoClassDefFoundError: org/eclipse/osgi/baseadaptor/HookConfigurator
@@ -8618,6 +8630,7 @@ Caused by: java.lang.ClassNotFoundException: org.eclipse.osgi.baseadaptor.HookCo
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
 	... 26 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-10 13:46:18.473
 !MESSAGE Unable to load resource file:/C:/Users/Jordan/Test-Folder/School/Years/Sophmore/Object%20Oriented%20Programming/GroupProject/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 !STACK 0
@@ -8700,12 +8713,21 @@ java.lang.Exception
 !ENTRY org.eclipse.jface 2 0 2021-03-10 13:46:20.097
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:46:20.097
+=======
+!ENTRY org.eclipse.jface 2 0 2021-03-10 13:48:16.044
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:48:16.044
+>>>>>>> Jordan
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5570ee6d,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f1db390,
+>>>>>>> Jordan
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -8713,17 +8735,29 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e2f16bd,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:46:20.097
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78c5ef58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-10 13:48:16.044
+>>>>>>> Jordan
 !MESSAGE A conflict occurred for ALT+SHIFT+Q E:
 Binding(ALT+SHIFT+Q E,
 	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP Script Explorer,
 		Shows the Script Explorer,
 		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@594fcb22,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fce6eb4,
+>>>>>>> Jordan
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -8731,11 +8765,16 @@ Binding(ALT+SHIFT+Q E,
 	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
 		Shows a particular view,
 		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1399ad68,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d44eab,
+>>>>>>> Jordan
 		[Parameter(org.eclipse.ui.views.showView.viewId,View,null,true), Parameter(org.eclipse.ui.views.showView.secondaryId,Secondary Id,null,true), Parameter(org.eclipse.ui.views.showView.makeFast,As FastView,null,true)],,true),[org.eclipse.core.commands.Parameterization@764c0aef]),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 2 2 2021-03-10 13:46:21.728
 !MESSAGE com.vp.vpsde.ec.views.PropertyPaneView: Deprecated relationship "fast" should be converted to "stack".
 
@@ -8836,6 +8875,12 @@ Binding(ALT+SHIFT+Q E,
 !MESSAGE Unable to create part
 !STACK 1
 org.eclipse.ui.PartInitException: Cannot determine URI for '/DungeonProject/src/Hero.java'.
+=======
+!ENTRY org.eclipse.ui 4 4 2021-03-10 13:48:20.761
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Cannot determine URI for '/DungeonProject/src/DungeonCharacter.java'.
+>>>>>>> Jordan
 	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3203)
 	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3214)
 	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
@@ -8951,7 +8996,11 @@ org.eclipse.ui.PartInitException: Cannot determine URI for '/DungeonProject/src/
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+<<<<<<< HEAD
 Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProject/src/Hero.java'.
+=======
+Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProject/src/DungeonCharacter.java'.
+>>>>>>> Jordan
 	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
 	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
 	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
@@ -8968,10 +9017,17 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Du
 	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2298)
 	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3189)
 	... 114 more
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2021-03-10 13:49:42.812
 !MESSAGE Cannot determine URI for '/DungeonProject/src/Hero.java'.
 !STACK 1
 org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProject/src/Hero.java'.
+=======
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2021-03-10 13:48:20.763
+!MESSAGE Cannot determine URI for '/DungeonProject/src/DungeonCharacter.java'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProject/src/DungeonCharacter.java'.
+>>>>>>> Jordan
 	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
 	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
 	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
@@ -9101,17 +9157,28 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DungeonProjec
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+<<<<<<< HEAD
 !SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2021-03-10 13:49:42.817
 !MESSAGE Cannot determine URI for '/DungeonProject/src/Hero.java'.
 
 !ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:49:45.846
+=======
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2021-03-10 13:48:20.787
+!MESSAGE Cannot determine URI for '/DungeonProject/src/DungeonCharacter.java'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-10 13:48:23.670
+>>>>>>> Jordan
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Jordan'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.equinox.registry 4 1 2021-03-10 13:50:04.354
+=======
+!ENTRY org.eclipse.equinox.registry 4 1 2021-03-10 13:48:43.480
+>>>>>>> Jordan
 !MESSAGE Plug-in "org.eclipse.egit.ui" was unable to instantiate class "org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.egit.ui" was unable to instantiate class "org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator".
@@ -9145,7 +9212,11 @@ Caused by: java.lang.NullPointerException
 	at org.eclipse.egit.ui.internal.decorators.GitDecorator.<init>(GitDecorator.java:52)
 	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.<init>(GitLightweightDecorator.java:122)
 	... 22 more
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.equinox.registry 4 1 2021-03-10 13:50:04.355
+=======
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2021-03-10 13:48:43.481
+>>>>>>> Jordan
 !MESSAGE Plug-in "org.eclipse.egit.ui" was unable to instantiate class "org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator".
 !STACK 0
 java.lang.reflect.InvocationTargetException
