@@ -1,5 +1,4 @@
 
-
 /**
  * Title: Hero.java
  *
@@ -27,22 +26,14 @@
  * @version 1.0
  */
 
-
-public abstract class Hero extends DungeonCharacter
-{
+public abstract class Hero extends DungeonCharacter{
+	
 	protected double chanceToBlock;
 	protected int numTurns;
 
 //-----------------------------------------------------------------
 //calls base constructor and gets name of hero from user
-  public Hero(String name, int hitPoints, int attackSpeed,
-				     double chanceToHit, int damageMin, int damageMax,
-					 double chanceToBlock)
-  {
-	super(name, hitPoints, attackSpeed, chanceToHit, damageMin, damageMax);
-	this.chanceToBlock = chanceToBlock;
-	readName();
-  }
+	public Hero(){ }
 
 /*-------------------------------------------------------
 readName obtains a name for the hero from the user
@@ -53,11 +44,12 @@ Returns: nothing
 This method calls: nothing
 This method is called by: hero constructor
 ---------------------------------------------------------*/
-  public void readName()
-  {
+	public void readName(){
+	  
 		System.out.print("Enter character name: ");
 		name = Keyboard.readString();
-  }//end readName method
+
+	}   // end readName method
 
 /*-------------------------------------------------------
 defend determines if hero blocks attack
@@ -68,11 +60,7 @@ Returns: true if attack is blocked, false otherwise
 This method calls: Math.random()
 This method is called by: subtractHitPoints()
 ---------------------------------------------------------*/
-  public boolean defend()
-  {
-		return Math.random() <= chanceToBlock;
-
-  }//end defend method
+	public boolean defend(){ return Math.random() <= chanceToBlock; }   // end defend method
 
 /*-------------------------------------------------------
 subtractHitPoints checks to see if hero blocked attack, if so a message
@@ -86,19 +74,13 @@ Returns: nothing
 This method calls: defend() or base version of method
 This method is called by: attack() from base class
 ---------------------------------------------------------*/
-public void subtractHitPoints(int hitPoints)
-	{
-		if (defend())
-		{
-			System.out.println(name + " BLOCKED the attack!");
-		}
-		else
-		{
-			super.subtractHitPoints(hitPoints);
-		}
+	public void subtractHitPoints(int hitPoints){
+		
+		if (defend()) System.out.println(name + " BLOCKED the attack!");
+		
+		else super.subtractHitPoints(hitPoints);
 
-
-	}//end method
+	}   // end method
 
 /*-------------------------------------------------------
 battleChoices will be overridden in derived classes.  It computes the
@@ -112,15 +94,14 @@ Returns: nothing
 This method calls: getAttackSpeed()
 This method is called by: external sources
 ---------------------------------------------------------*/
-	public void battleChoices(DungeonCharacter opponent)
-	{
-	    numTurns = attackSpeed/opponent.getAttackSpeed();
+	public void battleChoices(DungeonCharacter opponent){
+		
+		numTurns = attackSpeed/opponent.getAttackSpeed();
 
-		if (numTurns == 0)
-			numTurns++;
+		if (numTurns == 0) numTurns++;
 
 		System.out.println("Number of turns this round is: " + numTurns);
 
-	}//end battleChoices
+	}   // end battleChoices
 
-}//end Hero class
+}   // end Hero class
