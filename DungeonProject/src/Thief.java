@@ -1,5 +1,4 @@
 
-
 /**
  * Title:
  * Description:
@@ -11,7 +10,7 @@
 
 public class Thief extends Hero{
 
-    public Thief(){
+	public Thief(){
 
 		name = "Thief";
 		
@@ -31,6 +30,7 @@ public class Thief extends Hero{
 		double surprise = Math.random();
 		
 		if (surprise <= .4){
+			
 			System.out.println("Surprise attack was successful!\n" + name + " gets an additional turn.");
 			numTurns++;
 			attack(opponent);
@@ -43,27 +43,27 @@ public class Thief extends Hero{
 
 	}  // end surpriseAttack method
 
-    public void battleChoices(DungeonCharacter opponent){
+	public void battleChoices(DungeonCharacter opponent){
     	
 		super.battleChoices(opponent);
 		int choice;
 
 		do{
 
-		    System.out.println("1. Attack Opponent");
-		    System.out.println("2. Surprise Attack");
-		    System.out.print("Choose an option: ");
-		    choice = Keyboard.readInt();
+			System.out.println("1. Attack Opponent");
+			System.out.println("2. Surprise Attack");
+		 	System.out.print("Choose an option: ");
+		 	choice = Keyboard.readInt();
 
-		    switch(choice){
+		 	switch(choice){
 
-			    case 1: attack(opponent);
-			            break;
+				case 1: attack(opponent);
+					break;
 
-			    case 2: surpriseAttack(opponent);
-			            break;
+				case 2: surpriseAttack(opponent);
+					break;
 
-			    default: System.out.println("invalid choice!");
+				default: System.out.println("invalid choice!");
 
 		    }  // end switch
 
@@ -73,6 +73,6 @@ public class Thief extends Hero{
 
 		}while(numTurns > 0);
 
-    }
+	}
 
 }
