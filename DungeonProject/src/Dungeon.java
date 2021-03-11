@@ -70,9 +70,9 @@ this task
 		int choice;
 
 		System.out.println("Choose a hero:\n" +
-					       "1. Warrior\n" +
-						   "2. Sorceress\n" +
-						   "3. Thief");
+						"1. Warrior\n" +
+						"2. Sorceress\n" +
+						"3. Thief");
 		
 		choice = Keyboard.readInt();
 		

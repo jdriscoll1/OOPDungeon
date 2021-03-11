@@ -47,8 +47,9 @@ public abstract class DungeonCharacter{
 	
 
 //-----------------------------------------------------------------
-//explicit constructor to initialize instance variables -- it is called
-// by derived classes
+// explicit constructor to initialize instance variables -- it is called by derived classes
+// parameters have been removed to fix the "long parameter list" code smell
+// values are set in subclasses
 	public DungeonCharacter(){ }   // end constructor
 
 //-----------------------------------------------------------------
@@ -84,8 +85,8 @@ This method is called by: heal method of monsters and Sorceress
 
 /*-------------------------------------------------------
 subtractHitPoints is used to decrement the hitpoints a dungeon character has.
-It also reports the damage and remaining hit points (these things could be
-done in separate methods to make code more modular ;-)
+damage and remaining hit points reports have been moved to the attack method bellow
+to make the code more modular
 
 Receives: number of hit points to subtract
 Returns: nothing
@@ -121,7 +122,7 @@ This method is called by: unknown (intended for external use)
 /*-------------------------------------------------------
 attack allows character to attempt attack on opponent.  First, chance to hit
 is considered.  If a hit can occur, then the damage is calculated based on
-character's damage range.  This damage is then applied to the opponenet.
+character's damage range.  This damage is then applied to the opponenet and reported.
 
 Receives: opponent being attacked
 Returns: nothing
