@@ -49,6 +49,7 @@ public abstract class DungeonCharacter{
 //-----------------------------------------------------------------
 // explicit constructor to initialize instance variables -- it is called by derived classes
 // parameters have been removed to fix the "long parameter list" code smell
+// values are set in subclasses
 	public DungeonCharacter(){ }   // end constructor
 
 //-----------------------------------------------------------------
