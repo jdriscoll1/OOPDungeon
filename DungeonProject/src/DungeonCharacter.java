@@ -144,7 +144,7 @@ hero classes and externally
 			opponent.subtractHitPoints(damage);
 
 			System.out.println(getName() + " hit " + " for <" + damage + "> points damage.");
-			System.out.println(getName() + " now has " + getHitPoints() + " hit points remaining.");
+			System.out.println(opponent.getName() + " now has " + opponent.getHitPoints() + " hit points remaining.");
 			System.out.println();
 			
 			if(this.hitPoints == 0) System.out.println(name + " has been killed :-(");
