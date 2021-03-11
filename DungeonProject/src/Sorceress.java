@@ -12,7 +12,7 @@ public class Sorceress extends Hero{
 	
 	public Sorceress(){
 		
-		name = "Sorceress";
+		readName();
 		
 		hitPoints = 75;
 		attackSpeed = 5;

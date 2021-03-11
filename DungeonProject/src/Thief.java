@@ -12,7 +12,7 @@ public class Thief extends Hero{
 
 	public Thief(){
 
-		name = "Thief";
+		readName();
 		
 		hitPoints = 75;
 		attackSpeed = 6;

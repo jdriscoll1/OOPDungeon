@@ -12,7 +12,7 @@ public class Warrior extends Hero{
 
 	public Warrior(){
 
-		name = "Warrior";
+		readName();
 		
 		hitPoints = 125;
 		attackSpeed = 4;
